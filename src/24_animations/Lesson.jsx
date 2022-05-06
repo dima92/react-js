@@ -23,7 +23,7 @@ class Lesson extends Component {
         <input type="radio" name="logo" checked={!isLogoVisible} onChange={this.toggleLogo}/>No
       </div>
       <TransitionGroup>
-        {isLogoVisible && (<CSSTransition classNames="option">
+        {isLogoVisible && (<CSSTransition timeout={200} classNames="option">
           <div>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
