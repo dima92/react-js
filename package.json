@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/dima92/react-js#readme",
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5"
